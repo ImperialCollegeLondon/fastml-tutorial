@@ -29,7 +29,7 @@ You will need to clone this repository and download the data files that we will 
 First `cd` to a directory where you want to clone the repository, and then run the following command:
 
 ```bash
-git clone https://github.com/ic-hep/fastml-tutorial.git
+git clone https://github.com/ImperialCollegeLondon/fastml-tutorial.git
 cd fastml-tutorial
 ```
 At this point you should also download the data files we will use for the tutorial (~100Mb) using the following commands, and place them in the `data` directory:
