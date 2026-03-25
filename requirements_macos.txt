@@ -1,0 +1,16 @@
+jupyter
+numpy
+pandas
+scikit-learn
+keras
+tensorflow-macos
+tensorflow-metal
+jax
+matplotlib
+mplhep
+hls4ml
+da4ml
+hgq2
+tqdm
+h5py
+ndjson
