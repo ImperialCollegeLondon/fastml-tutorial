@@ -1,6 +1,12 @@
 # Fast ML UK tutorial
 This repository contains the code for the Fast ML UK tutorial. The tutorial is available at [https://indico.cern.ch/event/1641573/](https://indico.cern.ch/event/1641573/).
 
+## Notebooks
+The tutorial is structured as a series of Jupyter notebooks.
+* `fastml_tutorial.ipynb`: covers the basics of training ML models and using hls4ml to translate them into FPGA implementations. This second part of the notebook covers QAT optimization techniques.
+
+You will need to follow the instructions below to run the notebooks.
+
 ## Installation and setup instructions
 The installation process for this tutorial is not super straightforward and depends on your operating system (Linux/Windows vs MacOS). The main bottleneck is the installation of Intel's oneAPI toolkit, which provides the FPGA toolchain (including high-level synthesis compilers and libraries) needed to translate Machine Learning (ML) models into hardware descriptions and to build/emulate them for FPGA deployment. Unfortunately, the oneAPI toolkit is not natively supported on MacOS, which means that Mac (with Apple Silicon) users will need to use a Docker container with a emulated Linux environment to run the build. In any case, all operating systems will require the installation of Docker.
 
